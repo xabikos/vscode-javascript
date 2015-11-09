@@ -1,15 +1,54 @@
 {
   "import": {
     "prefix": "im",
-    "body": "import $1 from '$2';\n",
-    "description": "Import entire module statement in ES6 syntax",
-    "scope": "source.js"
+    "body": "import $1 from '${module}';\n$0",
+    "description": "Imports entire module statement in ES6 syntax"
   },
-
   "importDestructing": {
     "prefix": "im",
-    "body": "import { $1 } from '$2';\n",
-    "description": "Import only a portion of the module in ES6 syntax",
-    "scope": "source.js"
+    "body": "import { $1 } from '${2:module}';\n$0",
+    "description": "Imports only a portion of the module in ES6 syntax"
+  },  
+  "importEverything": {
+    "prefix": "ime",
+    "body": "import * as ${1:alias} from '${2:module}';\n$0",
+    "description": "Imports everything as alias from the module in ES6 syntax"
+  },  
+  "importAs": {
+    "prefix": "ima",
+    "body": "import {${1:originalName} as ${2:alias} } from '${3:module}';\n$0",
+    "description": "Imports a specific portion of the module by assigning a local alias in ES6 syntax"
+  },  
+  "exportNamedFunction": {
+    "prefix": "ef",
+    "body": "export const ${1:functionName} = (${2:params}) =>  {\n\t$0\n};\n",
+    "description": "Export named function in ES6 syntax"
+  },  
+  "exportDefaultFunction": {
+    "prefix": "edf",
+    "body": "export default (${1:params}) =>  {\n\t$0\n};\n",
+    "description": "Export default function in ES6 syntax"
+  },  
+  "exportClass": {
+    "prefix": "ec",
+    "body": "export default class ${1:className} {\n\t$0\n};\n",
+    "description": "Export default class in ES6 syntax"
+  },  
+  "exportClassExtends": {
+    "prefix": "ece",
+    "body": "export default class ${1:className} extends ${2:baseclassName} {\n\t$0\n};\n",
+    "description": "Export default class which extends a base one in ES6 syntax"
+  },
+  
+  "setInterval": {
+    "prefix": "sti",
+    "body": "setInterval(() => {\n\t${2}\n}, ${1:intervalInms});",
+    "description": "Executes the given function at specified intervals in ES6 syntax"
+  },
+  "setTimeOut": {
+    "prefix": "sto",
+    "body": "setTimeout(() => {\n\t${2}\n}, ${1:delayInms});",
+    "description": "Executes the given function after the specified delae in ES6 syntax"
   }
+  
 }
