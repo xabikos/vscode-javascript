@@ -1,0 +1,27 @@
+{
+  "name": "JavaScriptSnippets",
+  "description": "Code snippets for JavaScript in ES6 syntax",
+  "version": "0.0.1",
+  "displayName": "JavaScript (ES6) code snippets",
+  "publisher": "xabikos",
+  "icon": "images/javascript.png",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xabikos/vscode-javascript"
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "import": {
+    "prefix": "im",
+    "body": "import $1 from '$2';\n",
+    "description": "Import entire module statement in ES6 syntax",
+    "scope": "source.js"
+  },
+
+  "importDestructing": {
+    "prefix": "im",
+    "body": "import { $1 } from '$2';\n",
+    "description": "Import only a portion of the module in ES6 syntax",
+    "scope": "source.js"
+  }
+}
