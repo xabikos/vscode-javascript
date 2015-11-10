@@ -1,11 +1,11 @@
 {
   "import": {
-    "prefix": "im",
+    "prefix": "imp",
     "body": "import $1 from '${module}';\n$0",
     "description": "Imports entire module statement in ES6 syntax"
   },
   "importDestructing": {
-    "prefix": "im",
+    "prefix": "imd",
     "body": "import { $1 } from '${2:module}';\n$0",
     "description": "Imports only a portion of the module in ES6 syntax"
   },  
@@ -20,7 +20,7 @@
     "description": "Imports a specific portion of the module by assigning a local alias in ES6 syntax"
   },  
   "exportNamedFunction": {
-    "prefix": "ef",
+    "prefix": "enf",
     "body": "export const ${1:functionName} = (${2:params}) =>  {\n\t$0\n};\n",
     "description": "Export named function in ES6 syntax"
   },  
@@ -30,7 +30,7 @@
     "description": "Export default function in ES6 syntax"
   },  
   "exportClass": {
-    "prefix": "ec",
+    "prefix": "ecl",
     "body": "export default class ${1:className} {\n\t$0\n};\n",
     "description": "Export default class in ES6 syntax"
   },  
@@ -91,12 +91,12 @@
   "destructingObject": {
     "prefix": "dob",
     "body": "const {${1:propertyName}} = ${2:objectToDestruct};",
-    "description": "Creates and assings a local variable usin destructing"
+    "description": "Creates and assigns a local variable using object destructing"
   },
   "destructingArray": {
     "prefix": "dar",
     "body": "const [${1:propertyName}] = ${2:arrayToDestruct};",
-    "description": "Creates and assings a local variable usin destructing"
+    "description": "Creates and assigns a local variable using array destructing"
   },
   
   "setInterval": {
