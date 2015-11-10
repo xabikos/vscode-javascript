@@ -39,16 +39,67 @@
     "body": "export default class ${1:className} extends ${2:baseclassName} {\n\t$0\n};\n",
     "description": "Export default class which extends a base one in ES6 syntax"
   },
+
+  "anonymousFunction": {
+    "prefix": "faf",
+    "body": "(${1:params}) => {\n\t${2}\n}",
+    "description": "Creates an anonymous function in ES6 syntax"
+  },
+  "namedFunction": {
+    "prefix": "nfn",
+    "body": "const ${1:name} = (${2:params}) => {\n\t${3}\n}",
+    "description": "Creates a named function in ES6 syntax"
+  },  
   
   "setInterval": {
     "prefix": "sti",
-    "body": "setInterval(() => {\n\t${2}\n}, ${1:intervalInms});",
+    "body": "setInterval(() => {\n\t${2}\n}, ${0:intervalInms});",
     "description": "Executes the given function at specified intervals in ES6 syntax"
   },
   "setTimeOut": {
     "prefix": "sto",
     "body": "setTimeout(() => {\n\t${2}\n}, ${1:delayInms});",
-    "description": "Executes the given function after the specified delae in ES6 syntax"
+    "description": "Executes the given function after the specified delay in ES6 syntax"
+  },
+
+  "consoleAssert": {
+    "prefix": "cas",
+    "body": "console.assert(${1:expression}, ${2:object});",
+    "description": "If the specified expression is false, the message is written to the console along with a stack trace"
+  },
+  "consoleClear": {
+    "prefix": "ccl",
+    "body": "console.clear();",
+    "description": "Clears the console"
+  },
+  "consoleCount": {
+    "prefix": "cco",
+    "body": "console.count(${1:label});",
+    "description": "Writes the the number of times that count() has been invoked at the same line and with the same label"
+  },
+  "consoleDir": {
+    "prefix": "cdi",
+    "body": "console.dir(${1:object});",
+    "description": "Prints a JavaScript representation of the specified object"
+  },
+  "consoleError": {
+    "prefix": "cer",
+    "body": "console.error(${1:object});",
+    "description": "Displays a message in the console and also includes a stack trace from where the method was called"
+  },
+  "consoleLog": {
+    "prefix": "clg",
+    "body": "console.log(${1:object});",
+    "description": "Displays a message in the console"
+  },
+  "consoleTrace": {
+    "prefix": "ctr",
+    "body": "console.trace(${1:object});",
+    "description": "Prints a stack trace from the point where the method was called"
+  },
+  "consoleWarn": {
+    "prefix": "cwa",
+    "body": "console.warn(${1:object});",
+    "description": "Displays a message in the console but also displays a yellow warning icon along with the logged message"
   }
-  
 }
