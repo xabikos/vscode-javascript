@@ -41,7 +41,7 @@
   },
 
   "constructor": {
-    "prefix": "ctr",
+    "prefix": "con",
     "body": "constructor(${1:params}) {\n\t${0}\n}",
     "description": "Add default constructor in a class in ES6 syntax"
   },
@@ -52,7 +52,7 @@
   },
   "propertyGet": {
     "prefix": "pge",
-    "body": "get ${1:propertyName}() {\n\treturn ${0};\n}",
+    "body": "get ${1:propertyName}() {\n\treturn this.${0};\n}",
     "description": "Creates a getter property inside a class in ES6 syntax"
   },
   "propertyset": {
@@ -76,9 +76,8 @@
     "body": "for(let ${1:item} in ${2:object}) {\n\t${0}\n}",
     "description": "Iterating over property values of iterable objects"
   },
-
   "anonymousFunction": {
-    "prefix": "faf",
+    "prefix": "afn",
     "body": "(${1:params}) => {\n\t${2}\n}",
     "description": "Creates an anonymous function in ES6 syntax"
   },
@@ -87,7 +86,6 @@
     "body": "const ${1:name} = (${2:params}) => {\n\t${3}\n}",
     "description": "Creates a named function in ES6 syntax"
   },
-
   "destructingObject": {
     "prefix": "dob",
     "body": "const {${1:propertyName}} = ${2:objectToDestruct};",
@@ -98,7 +96,6 @@
     "body": "const [${1:propertyName}] = ${2:arrayToDestruct};",
     "description": "Creates and assigns a local variable using array destructing"
   },
-  
   "setInterval": {
     "prefix": "sti",
     "body": "setInterval(() => {\n\t${2}\n}, ${0:intervalInms});",
