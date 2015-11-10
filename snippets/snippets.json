@@ -87,6 +87,17 @@
     "body": "const ${1:name} = (${2:params}) => {\n\t${3}\n}",
     "description": "Creates a named function in ES6 syntax"
   },
+
+  "destructingObject": {
+    "prefix": "dob",
+    "body": "const {${1:propertyName}} = ${2:objectToDestruct};",
+    "description": "Creates and assings a local variable usin destructing"
+  },
+  "destructingArray": {
+    "prefix": "dar",
+    "body": "const [${1:propertyName}] = ${2:arrayToDestruct};",
+    "description": "Creates and assings a local variable usin destructing"
+  },
   
   "setInterval": {
     "prefix": "sti",
