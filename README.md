@@ -15,7 +15,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 ### Import and export
 | Trigger  | Content |
 | -------: | ------- |
-| `imp→`   | imports entire module **import React from 'react';**|
-| `imd→`   | imports only a portion of the module using destructing  **import {Component} from 'react';** |
+| `imp→`   | imports entire module `import fs from 'fs';`|
+| `imd→`   | imports only a portion of the module using destructing  `import {rename} from 'fs';` |
 
 [code]: https://code.visualstudio.com/
