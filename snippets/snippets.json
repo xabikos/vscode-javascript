@@ -40,6 +40,43 @@
     "description": "Export default class which extends a base one in ES6 syntax"
   },
 
+  "constructor": {
+    "prefix": "ctr",
+    "body": "constructor(${1:params}) {\n\t${0}\n}",
+    "description": "Add default constructor in a class in ES6 syntax"
+  },
+  "mehtod": {
+    "prefix": "met",
+    "body": "${1:methodName}(${2:params}) {\n\t${0}\n}",
+    "description": "Creates a mehtod inside a class in ES6 syntax"
+  },
+  "propertyGet": {
+    "prefix": "pge",
+    "body": "get ${1:propertyName}() {\n\treturn ${0};\n}",
+    "description": "Creates a getter property inside a class in ES6 syntax"
+  },
+  "propertyset": {
+    "prefix": "pse",
+    "body": "set ${1:propertyName}(${2:value}) {\n\t${0};\n}",
+    "description": "Creates a setter property inside a class in ES6 syntax"
+  },
+
+  "forEach": {
+    "prefix": "fre",
+    "body": "${1:array}.forEach(${2:currentItem} => {\n\t${0}\n});",
+    "description": "Creates a forEach statement in ES6 syntax"
+  },
+  "forOf": {
+    "prefix": "fof",
+    "body": "for(let ${1:item} of ${2:object}) {\n\t${0}\n}",
+    "description": "Iterating over property names of iterable objects"
+  },
+  "forIn": {
+    "prefix": "fin",
+    "body": "for(let ${1:item} in ${2:object}) {\n\t${0}\n}",
+    "description": "Iterating over property values of iterable objects"
+  },
+
   "anonymousFunction": {
     "prefix": "faf",
     "body": "(${1:params}) => {\n\t${2}\n}",
@@ -49,7 +86,7 @@
     "prefix": "nfn",
     "body": "const ${1:name} = (${2:params}) => {\n\t${3}\n}",
     "description": "Creates a named function in ES6 syntax"
-  },  
+  },
   
   "setInterval": {
     "prefix": "sti",
