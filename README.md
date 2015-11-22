@@ -39,7 +39,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `fof→`   | for ... of loop `for(let item of object) {}` |
 | `fin→`   | for ... in loop `for(let item in object) {}` |
 | `afn→`   | creates an anonymous function `(params) => {}` |
-| `npm→`   | creates a named function `const add = (params) => {}` |
+| `nfn→`   | creates a named function `const add = (params) => {}` |
 | `dob→`   | desctucting object syntax `const {rename} = fs` |
 | `dar→`   | desctucting array syntax `const [first, second] = [1,2]` |
 | `sti→`   | set interval helper method `setInterval(() => {});` |
