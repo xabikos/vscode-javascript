@@ -1,7 +1,7 @@
 # JavaScript
 ## VS Code JavaScript (ES6) snippets 
 -------------------
-This extension contains code snippets for JavaScript in ES6 syntax for [Vs Code][code] editor.
+This extension contains code snippets for JavaScript in ES6 syntax for [Vs Code][code] editor (supports both JavaScript and TypeScript).
 
 ## Installation
 
