@@ -1,22 +1,22 @@
 {
   "import": {
     "prefix": "imp",
-    "body": "import $1 from '${module}';\n$0",
+    "body": "import $1 from '${module}';$0",
     "description": "Imports entire module statement in ES6 syntax"
   },
   "importDestructing": {
     "prefix": "imd",
-    "body": "import { $1 } from '${2:module}';\n$0",
+    "body": "import { $1 } from '${2:module}';$0",
     "description": "Imports only a portion of the module in ES6 syntax"
   },  
   "importEverything": {
     "prefix": "ime",
-    "body": "import * as ${1:alias} from '${2:module}';\n$0",
+    "body": "import * as ${1:alias} from '${2:module}';$0",
     "description": "Imports everything as alias from the module in ES6 syntax"
   },  
   "importAs": {
     "prefix": "ima",
-    "body": "import {${1:originalName} as ${2:alias} } from '${3:module}';\n$0",
+    "body": "import {${1:originalName} as ${2:alias} } from '${3:module}';$0",
     "description": "Imports a specific portion of the module by assigning a local alias in ES6 syntax"
   },  
   "exportNamedFunction": {
