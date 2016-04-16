@@ -132,6 +132,16 @@
     "body": "console.error(${1:object});",
     "description": "Displays a message in the console and also includes a stack trace from where the method was called"
   },
+  "consoleGroup": {
+    "prefix": "cgr",
+    "body": "console.group(\"${1:label}\");",
+    "description": "Groups and indents all following output by an additional level, until console.groupEnd() is called."
+  },
+  "consoleGroupEnd": {
+    "prefix": "cge",
+    "body": "console.groupEnd();",
+    "description": "Closes out the corresponding console.group()."
+  },
   "consoleLog": {
     "prefix": "clg",
     "body": "console.log(${1:object});",
