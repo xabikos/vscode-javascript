@@ -28,7 +28,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | Trigger  | Content |
 | -------: | ------- |
 | `con→`   | adds default constructor in the class `constructor() {}`|
-| `met→`   | cretes a method inside a class `add() {}` |
+| `met→`   | creates a method inside a class `add() {}` |
 | `pge→`   | creates a getter property `get propertyName() {return value;}` |
 | `pse→`   | creates a setter property `set propertyName(value) {}` |
 
