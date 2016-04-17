@@ -53,6 +53,8 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `cco→`   | console count `console.count(label)` |
 | `cdi→`   | console dir `console.dir` |
 | `cer→`   | console error `console.error(object)` |
+| `cgr→`   | console group `console.group(label)` |
+| `cge→`   | console groupEnd `console.groupEnd()` |
 | `clg→`   | console log `console.log(object)` |
 | `ctr→`   | console trace `console.trace(object)` |
 | `cwa→`   | console warn `console.warn` |
