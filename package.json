@@ -1,7 +1,7 @@
 {
   "name": "JavaScriptSnippets",
   "description": "Code snippets for JavaScript in ES6 syntax",
-  "version": "0.3.1",
+  "version": "1.0.0",
   "displayName": "JavaScript (ES6) code snippets",
   "publisher": "xabikos",
   "icon": "images/javascript.png",
@@ -23,6 +23,12 @@
         "path": "./snippets/snippets.json"
       }, {
         "language": "typescript",
+        "path": "./snippets/snippets.json"
+      }, {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      }, {
+        "language": "typescriptreact",
         "path": "./snippets/snippets.json"
       }
     ]
