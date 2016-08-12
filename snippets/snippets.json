@@ -1,7 +1,7 @@
 {
   "import": {
     "prefix": "imp",
-    "body": "import $1 from '${module}';$0",
+    "body": "import $1 from '${2:module}';$0",
     "description": "Imports entire module statement in ES6 syntax"
   },
   "importDestructing": {
