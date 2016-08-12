@@ -1,5 +1,5 @@
 # JavaScript
-## VS Code JavaScript (ES6) snippets 
+## VS Code JavaScript (ES6) snippets
 -------------------
 This extension contains code snippets for JavaScript in ES6 syntax for [Vs Code][code] editor (supports both JavaScript and TypeScript).
 
@@ -44,7 +44,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `fre→`   | forEach loop in ES6 syntax `array.forEach(currentItem => {})`|
 | `fof→`   | for ... of loop `for(let item of object) {}` |
 | `fin→`   | for ... in loop `for(let item in object) {}` |
-| `afn→`   | creates an anonymous function `(params) => {}` |
+| `anfn→`  | creates an anonymous function `(params) => {}` |
 | `nfn→`   | creates a named function `const add = (params) => {}` |
 | `dob→`   | desctucting object syntax `const {rename} = fs` |
 | `dar→`   | desctucting array syntax `const [first, second] = [1,2]` |
