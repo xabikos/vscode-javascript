@@ -6,7 +6,7 @@ This extension contains code snippets for JavaScript in ES6 syntax for [Vs Code]
 ## Installation
 
 In order to install an extension you need to launch the Command Pallete (Ctrl + Shift + P or Cmd + Shift + P) and type Extensions.
-There you have either the option to show the already installed snippets or install new ones.
+There you have either the option to show the already installed snippets or install new ones. Search for *JavaScript (ES6) code snippets* and install it.
 
 ## Supported languages (file extensions)
 * JavaScript (.js)
