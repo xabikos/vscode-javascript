@@ -109,7 +109,7 @@
   "promise": {
     "prefix": "prom",
     "body": "return new Promise((resolve, reject) => {\n\t${1}\n});",
-    "description": "Executes the given function after the specified delay in ES6 syntax"
+    "description": "Creates and returns a new Promise in the standard ES6 syntax"
   },
 
   "consoleAssert": {
