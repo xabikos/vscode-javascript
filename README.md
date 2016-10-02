@@ -50,6 +50,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `dar→`   | desctucting array syntax `const [first, second] = [1,2]` |
 | `sti→`   | set interval helper method `setInterval(() => {});` |
 | `sto→`   | set timeout helper method `setTimeout(() => {});` |
+| `prom→`  | creates a new Promise `return new Promise((resolve, reject) => {});`|
 
 ### Console methods
 | Trigger  | Content |
