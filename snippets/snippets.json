@@ -1,22 +1,22 @@
 {
   "import": {
     "prefix": "imp",
-    "body": "import $1 from '${2:module}';$0",
+    "body": "import ${2:moduleName} from '${1:module}';$0",
     "description": "Imports entire module statement in ES6 syntax"
   },
   "importDestructing": {
     "prefix": "imd",
-    "body": "import { $1 } from '${2:module}';$0",
+    "body": "import { $2 } from '${1:module}';$0",
     "description": "Imports only a portion of the module in ES6 syntax"
   },
   "importEverything": {
     "prefix": "ime",
-    "body": "import * as ${1:alias} from '${2:module}';$0",
+    "body": "import * as ${2:alias} from '${1:module}';$0",
     "description": "Imports everything as alias from the module in ES6 syntax"
   },
   "importAs": {
     "prefix": "ima",
-    "body": "import {${1:originalName} as ${2:alias} } from '${3:module}';$0",
+    "body": "import {${2:originalName} as ${3:alias} } from '${1:module}';$0",
     "description": "Imports a specific portion of the module by assigning a local alias in ES6 syntax"
   },
   "exportNamedFunction": {
@@ -45,10 +45,10 @@
     "body": "constructor(${1:params}) {\n\t${0}\n}",
     "description": "Add default constructor in a class in ES6 syntax"
   },
-  "mehtod": {
+  "method": {
     "prefix": "met",
     "body": "${1:methodName}(${2:params}) {\n\t${0}\n}",
-    "description": "Creates a mehtod inside a class in ES6 syntax"
+    "description": "Creates a method inside a class in ES6 syntax"
   },
   "propertyGet": {
     "prefix": "pge",
