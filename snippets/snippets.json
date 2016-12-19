@@ -4,6 +4,11 @@
     "body": "import ${2:moduleName} from '${1:module}';$0",
     "description": "Imports entire module statement in ES6 syntax"
   },
+  "importNoModuleName": {
+    "prefix": "imn",
+    "body": "import '${1:module}';$0",
+    "description": "Imports entire module in ES6 syntax without module name"
+  },
   "importDestructing": {
     "prefix": "imd",
     "body": "import { $2 } from '${1:module}';$0",
