@@ -51,8 +51,8 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `fin→`   | for ... in loop `for(let item in object) {}` |
 | `anfn→`  | creates an anonymous function `(params) => {}` |
 | `nfn→`   | creates a named function `const add = (params) => {}` |
-| `dob→`   | desctucting object syntax `const {rename} = fs` |
-| `dar→`   | desctucting array syntax `const [first, second] = [1,2]` |
+| `dob→`   | destructing object syntax `const {rename} = fs` |
+| `dar→`   | destructing array syntax `const [first, second] = [1,2]` |
 | `sti→`   | set interval helper method `setInterval(() => {});` |
 | `sto→`   | set timeout helper method `setTimeout(() => {});` |
 | `prom→`  | creates a new Promise `return new Promise((resolve, reject) => {});`|
