@@ -18,6 +18,7 @@ There you have either the option to show the already installed snippets or insta
 * TypeScript (.ts)
 * JavaScript React (.jsx)
 * TypeScript React (.tsx)
+* Html (.html)
 
 ## Snippets
 
