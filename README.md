@@ -27,6 +27,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | Trigger  | Content |
 | -------: | ------- |
 | `imp→`   | imports entire module `import fs from 'fs';`|
+| `imn→`   | imports entire module without module name `import 'animate.css'` |
 | `imd→`   | imports only a portion of the module using destructing  `import {rename} from 'fs';` |
 | `ime→`   | imports everything as alias from the module `import * as localAlias from 'fs';` |
 | `ima→`   | imports only a portion of the module as alias `import { rename  as localRename } from 'fs';` |
