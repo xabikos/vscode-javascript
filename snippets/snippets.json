@@ -166,5 +166,10 @@
     "prefix": "cwa",
     "body": "console.warn(${1:object});",
     "description": "Displays a message in the console but also displays a yellow warning icon along with the logged message"
+  },
+  "consoleInfo": {
+    "prefix": "cin",
+    "body": "console.info(${1:object});",
+    "description": "Displays a message in the console but also displays a blue information icon along with the logged message"
   }
 }
