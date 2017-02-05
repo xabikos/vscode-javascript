@@ -30,6 +30,9 @@
       }, {
         "language": "typescriptreact",
         "path": "./snippets/snippets.json"
+      }, {
+        "language": "html",
+        "path": "./snippets/snippets.json"
       }
     ]
   }
