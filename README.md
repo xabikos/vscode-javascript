@@ -71,5 +71,6 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `clg→`   | console log `console.log(object)` |
 | `ctr→`   | console trace `console.trace(object)` |
 | `cwa→`   | console warn `console.warn` |
+| `cin→`   | console info `console.info` |
 
 [code]: https://code.visualstudio.com/
