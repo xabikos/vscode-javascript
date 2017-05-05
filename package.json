@@ -4,7 +4,7 @@
   "version": "1.4.0",
   "displayName": "JavaScript (ES6) code snippets",
   "publisher": "xabikos",
-  "icon": "images/javascript.png",
+  "icon": "images/javascript_icon.svg",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
     "type": "git",
