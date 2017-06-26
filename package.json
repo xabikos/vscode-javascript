@@ -1,10 +1,10 @@
 {
   "name": "JavaScriptSnippets",
   "description": "Code snippets for JavaScript in ES6 syntax",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "displayName": "JavaScript (ES6) code snippets",
   "publisher": "xabikos",
-  "icon": "images/javascript_icon.svg",
+  "icon": "images/javascript.png",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
     "type": "git",

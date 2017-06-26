@@ -2,8 +2,8 @@
 ## VS Code JavaScript (ES6) snippets
 -------------------
 
-[![Version](http://vsmarketplacebadge.apphb.com/version/xabikos.JavaScriptSnippets.svg)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
-[![Installs](http://vsmarketplacebadge.apphb.com/installs/xabikos.JavaScriptSnippets.svg)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+[![Version](https://vsmarketplacebadge.apphb.com/version/xabikos.JavaScriptSnippets.svg)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/xabikos.JavaScriptSnippets.svg)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating/xabikos.JavaScriptSnippets.svg)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 
 This extension contains code snippets for JavaScript in ES6 syntax for [Vs Code][code] editor (supports both JavaScript and TypeScript).
@@ -73,5 +73,6 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `ctr→`   | console trace `console.trace(object)` |
 | `cwa→`   | console warn `console.warn` |
 | `cin→`   | console info `console.info` |
+| `clt→`   | console table `console.table` |
 
 [code]: https://code.visualstudio.com/

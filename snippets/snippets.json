@@ -171,5 +171,10 @@
     "prefix": "cin",
     "body": "console.info(${1:object});",
     "description": "Displays a message in the console but also displays a blue information icon along with the logged message"
+  },
+  "consoleTable": {
+    "prefix": "clt",
+    "body": "console.table(${1:object});",
+    "description": "Displays tabular data as a table."
   }
 }
