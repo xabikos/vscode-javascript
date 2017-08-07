@@ -73,12 +73,12 @@
   },
   "forOf": {
     "prefix": "fof",
-    "body": "for(let ${1:item} of ${2:object}) {\n\t${0}\n}",
+    "body": "for (const ${1:item} of ${2:object}) {\n\t${0}\n}",
     "description": "Iterating over property names of iterable objects"
   },
   "forIn": {
     "prefix": "fin",
-    "body": "for(let ${1:item} in ${2:object}) {\n\t${0}\n}",
+    "body": "for (const ${1:item} in ${2:object}) {\n\t${0}\n}",
     "description": "Iterating over property values of iterable objects"
   },
   "anonymousFunction": {
