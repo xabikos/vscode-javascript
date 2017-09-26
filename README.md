@@ -50,8 +50,8 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | Trigger  | Content |
 | -------: | ------- |
 | `fre→`   | forEach loop in ES6 syntax `array.forEach(currentItem => {})`|
-| `fof→`   | for ... of loop `for(let item of object) {}` |
-| `fin→`   | for ... in loop `for(let item in object) {}` |
+| `fof→`   | for ... of loop `for(const item of object) {}` |
+| `fin→`   | for ... in loop `for(const item in object) {}` |
 | `anfn→`  | creates an anonymous function `(params) => {}` |
 | `nfn→`   | creates a named function `const add = (params) => {}` |
 | `dob→`   | destructing object syntax `const {rename} = fs` |
