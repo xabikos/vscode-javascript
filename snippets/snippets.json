@@ -43,6 +43,11 @@
     "prefix": "ece",
     "body": "export default class ${1:className} extends ${2:baseclassName} {\n\t$0\n};\n",
     "description": "Export default class which extends a base one in ES6 syntax"
+  },  
+  "describeIt": {
+    "prefix": "dit",
+    "body": "describe('A test', () => {\n\tit('should test something', () => {\n\t\texpect();\n\t});\n});",
+    "description": "Creates a unit test structure in ES6 syntax"
   },
 
   "constructor": {

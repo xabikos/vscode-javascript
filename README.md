@@ -37,6 +37,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `edf→`   | exports default function `export default  (parameter) => { console.log(parameter);};` |
 | `ecl→`   | exports default class `export default class Calculator { };` |
 | `ece→`   | exports default class by extending a base one `export default class Calculator extends BaseClass { };` |
+| `dit→`   | creates a unit test structure `describe('A test', () => {it('should test something', () => {expect();});});` |
 
 ### Class helpers
 | Trigger  | Content |
