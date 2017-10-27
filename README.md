@@ -6,7 +6,7 @@
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/xabikos.JavaScriptSnippets.svg)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating/xabikos.JavaScriptSnippets.svg)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 
-This extension contains code snippets for JavaScript in ES6 syntax for [Vs Code][code] editor (supports both JavaScript and TypeScript).
+This extension contains code snippets for JavaScript in ES6 syntax for [VS Code][code] editor (supports both JavaScript and TypeScript).
 
 ## Installation
 
@@ -19,7 +19,6 @@ There you have either the option to show the already installed snippets or insta
 * JavaScript React (.jsx)
 * TypeScript React (.tsx)
 * Html (.html)
-* Vue (.vue)
 
 ## Snippets
 
