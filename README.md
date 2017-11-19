@@ -1,25 +1,26 @@
-# JavaScript
-## VS Code JavaScript (ES6) snippets
--------------------
-
 [![Version](https://vsmarketplacebadge.apphb.com/version/xabikos.JavaScriptSnippets.svg)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/xabikos.JavaScriptSnippets.svg)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating/xabikos.JavaScriptSnippets.svg)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 
-This extension contains code snippets for JavaScript in ES6 syntax for [Vs Code][code] editor (supports both JavaScript and TypeScript).
+# JavaScript Snippets
+JavaScript snippets for Visual Studio Code
+
+## About
+
+This extension for [Visual Studio Code](https://code.visualstudio.com/) editor contains JavaScript snippets in ES2015 syntax with optional semicolons hidden behind `snippets-javascript.semi` configuration option by default set to `true`.
 
 ## Installation
 
 In order to install an extension you need to launch the Command Pallete (Ctrl + Shift + P or Cmd + Shift + P) and type Extensions.
-There you have either the option to show the already installed snippets or install new ones. Search for *JavaScript (ES6) code snippets* and install it.
+There you have either the option to show the already installed snippets or install new ones. Search for *JavaScript (ES2015) Snippets* and install it.
 
 ## Supported languages (file extensions)
+
 * JavaScript (.js)
 * TypeScript (.ts)
 * JavaScript React (.jsx)
 * TypeScript React (.tsx)
-* Html (.html)
-* Vue (.vue)
+* HTML (.html)
 
 ## Snippets
 
@@ -75,5 +76,3 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `cwa→`   | console warn `console.warn` |
 | `cin→`   | console info `console.info` |
 | `clt→`   | console table `console.table` |
-
-[code]: https://code.visualstudio.com/

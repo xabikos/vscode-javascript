@@ -1,42 +1,46 @@
 {
   "name": "JavaScriptSnippets",
-  "description": "Code snippets for JavaScript in ES6 syntax",
+  "description": "JavaScript snippets for Visual Studio Code",
   "version": "1.5.0",
-  "displayName": "JavaScript (ES6) code snippets",
+  "displayName": "JavaScript (ES2015) Snippets",
   "publisher": "xabikos",
   "icon": "images/javascript.png",
-  "license": "SEE LICENSE IN LICENSE.md",
+  "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
     "url": "https://github.com/xabikos/vscode-javascript"
   },
   "engines": {
-    "vscode": "0.10.x"
+    "vscode": "^1.8.0"
   },
+  "main": "./src/extension",
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescriptreact",
+    "onLanguage:html"
+  ],
   "categories": [
     "Snippets"
   ],
   "contributes": {
-    "snippets": [
-      {
-        "language": "javascript",
-        "path": "./snippets/snippets.json"
-      }, {
-        "language": "typescript",
-        "path": "./snippets/snippets.json"
-      }, {
-        "language": "javascriptreact",
-        "path": "./snippets/snippets.json"
-      }, {
-        "language": "typescriptreact",
-        "path": "./snippets/snippets.json"
-      }, {
-        "language": "html",
-        "path": "./snippets/snippets.json"
-      }, {
-        "language": "vue",
-        "path": "./snippets/snippets.json"
+    "configuration": {
+      "title": "JavaScript Snippets",
+      "properties": {
+        "snippets-javascript.semi": {
+          "type": "boolean",
+          "default": true,
+          "description": "Uses semicolons"
+        }
       }
-    ]
+    }
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "vscode": "^1.1.6"
   }
 }
