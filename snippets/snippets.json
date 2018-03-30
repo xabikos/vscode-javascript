@@ -116,6 +116,11 @@
     "body": "return new Promise((resolve, reject) => {\n\t${1}\n});",
     "description": "Creates and returns a new Promise in the standard ES6 syntax"
   },
+  "thenCatch": {
+    "prefix": "thenc",
+    "body": ".then((${1:result}) => {\n\t\n}).catch((${2:err}) => {\n\t\n});",
+    "description": "Add the .then and .catch methods to handle promises"
+  },
 
   "consoleAssert": {
     "prefix": "cas",
