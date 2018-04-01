@@ -160,7 +160,7 @@
   "consoleLogObject": {
     "prefix": "clo",
     "body": "console.log('${1:object} :', ${1:object});",
-    "description": "Displays an Object in the console with its name"
+    "description": "Displays an object in the console with its name"
   },
   "consoleTrace": {
     "prefix": "ctr",
