@@ -157,6 +157,11 @@
     "body": "console.log(${1:object});",
     "description": "Displays a message in the console"
   },
+  "consoleLogName": {
+    "prefix": "clo",
+    "body": "console.log('${1:object} :', ${1:object});",
+    "description": "Displays an Object in the console with its name"
+  },
   "consoleTrace": {
     "prefix": "ctr",
     "body": "console.trace(${1:object});",
