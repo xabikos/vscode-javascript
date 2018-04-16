@@ -59,6 +59,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `sti→`   | set interval helper method `setInterval(() => {});` |
 | `sto→`   | set timeout helper method `setTimeout(() => {});` |
 | `prom→`  | creates a new Promise `return new Promise((resolve, reject) => {});`|
+| `thenCatch→`| adds then and catch declaration to a promise `.then((res) => {).catch((err) => {});`|
 
 ### Console methods
 | Trigger  | Content |
@@ -71,6 +72,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `cgr→`   | console group `console.group(label)` |
 | `cge→`   | console groupEnd `console.groupEnd()` |
 | `clg→`   | console log `console.log(object)` |
+| `clo→`   | console log object with name `console.log('object :', object);` |
 | `ctr→`   | console trace `console.trace(object)` |
 | `cwa→`   | console warn `console.warn` |
 | `cin→`   | console info `console.info` |
