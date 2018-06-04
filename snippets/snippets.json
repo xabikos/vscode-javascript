@@ -29,6 +29,11 @@
     "body": "require('${1:package}');",
     "description": "Require a package"
   },
+  "moduleExports": {
+    "prefix": "mde",
+    "body": "module.exports = {\n\t$0\n};\n",
+    "description": "Module exports from Common JS, node syntax at ES6"
+  },
   "exportNamedFunction": {
     "prefix": "enf",
     "body": "export const ${1:functionName} = (${2:params}) =>  {\n\t$0\n};\n",
