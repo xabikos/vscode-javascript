@@ -1,7 +1,7 @@
 {
   "name": "JavaScriptSnippets",
   "description": "Code snippets for JavaScript in ES6 syntax",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "displayName": "JavaScript (ES6) code snippets",
   "publisher": "xabikos",
   "icon": "images/javascript.png",
