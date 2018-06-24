@@ -33,6 +33,8 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `imd→`   | imports only a portion of the module using destructing  `import {rename} from 'fs';` |
 | `ime→`   | imports everything as alias from the module `import * as localAlias from 'fs';` |
 | `ima→`   | imports only a portion of the module as alias `import { rename  as localRename } from 'fs';` |
+| `rqr→`   | require package `require('');`|
+| `mde→`   | default module.exports `module.exports = {};`|
 | `enf→`   | exports name function `export const log = (parameter) => { console.log(parameter);};` |
 | `edf→`   | exports default function `export default  (parameter) => { console.log(parameter);};` |
 | `ecl→`   | exports default class `export default class Calculator { };` |
