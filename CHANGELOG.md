@@ -1,3 +1,7 @@
+## [1.7.0] - 2018-06-24
+### Added
+- Add snippet for `require` and `default module exports`
+
 ## [1.6.0] - 2018-04-16
 ### Changed
 - Fix the order for object and array destructuring
