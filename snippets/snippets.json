@@ -128,7 +128,7 @@
   },
   "thenCatch": {
     "prefix": "thenc",
-    "body": ".then((${1:result}) => {\n\t\n}).catch((${2:err}) => {\n\t\n});",
+    "body": ".then((${1:result}) => {\n\t${2}\n}).catch((${3:err}) => {\n\t${4}\n});",
     "description": "Add the .then and .catch methods to handle promises"
   },
 
