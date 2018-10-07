@@ -1,3 +1,7 @@
+## [1.7.1] - 2018-10-07
+### Updated
+- Minor improvements in Readme and `thenCatch`, `exportNamedFunction`, `exportDefaultFunction` snippets
+
 ## [1.7.0] - 2018-06-24
 ### Added
 - Add snippet for `require` and `default module exports`
