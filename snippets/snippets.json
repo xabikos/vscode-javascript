@@ -36,12 +36,12 @@
   },
   "exportNamedFunction": {
     "prefix": "enf",
-    "body": "export const ${1:functionName} = (${2:params}) =>  {\n\t$0\n};\n",
+    "body": "export const ${1:functionName} = (${2:params}) => {\n\t$0\n};\n",
     "description": "Export named function in ES6 syntax"
   },
   "exportDefaultFunction": {
     "prefix": "edf",
-    "body": "export default (${1:params}) =>  {\n\t$0\n};\n",
+    "body": "export default (${1:params}) => {\n\t$0\n};\n",
     "description": "Export default function in ES6 syntax"
   },
   "exportClass": {
