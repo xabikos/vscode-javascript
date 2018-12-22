@@ -196,5 +196,15 @@
     "prefix": "clt",
     "body": "console.table(${1:object});",
     "description": "Displays tabular data as a table."
+  },
+  "consoleTime": {
+    "prefix": "cti",
+    "body": "console.time(${1:object});",
+    "description": "Sets starting point for execution time measurement"
+  },
+  "consoleTimeEnd": {
+    "prefix": "cte",
+    "body": "console.timeEnd(${1:object});",
+    "description": "Sets end point for execution time measurement"
   }
 }
