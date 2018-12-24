@@ -79,5 +79,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `cwa→`   | console warn `console.warn` |
 | `cin→`   | console info `console.info` |
 | `clt→`   | console table `console.table` |
+| `cti→`   | console time `console.time` |
+| `cte→`   | console timeEnd `console.timeEnd` |
 
 [code]: https://code.visualstudio.com/
