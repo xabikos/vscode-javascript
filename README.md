@@ -8,6 +8,9 @@
 
 This extension contains code snippets for JavaScript in ES6 syntax for [Vs Code][code] editor (supports both JavaScript and TypeScript).
 
+All the snippets include the final semicolon `;`. There is a fork of those snippets [here](https://marketplace.visualstudio.com/items?itemName=jmsv.JavaScriptSnippetsStandard)
+made by @jmsv where semicolons are not included. So feel free to use them according to the needs.
+
 ## Installation
 
 In order to install an extension you need to launch the Command Pallete (Ctrl + Shift + P or Cmd + Shift + P) and type Extensions.
