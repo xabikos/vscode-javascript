@@ -70,7 +70,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 ### Console methods
 | Trigger  | Content |
 | -------: | ------- |
-| `cas→`   | console alert method `console.assert(expression, object)`|
+| `cas→`   | console assert method `console.assert(expression, object)`|
 | `ccl→`   | console clear `console.clear()` |
 | `cco→`   | console count `console.count(label)` |
 | `cdi→`   | console dir `console.dir` |
