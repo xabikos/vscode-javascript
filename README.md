@@ -65,7 +65,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `sti→`   | set interval helper method `setInterval(() => {});` |
 | `sto→`   | set timeout helper method `setTimeout(() => {});` |
 | `prom→`  | creates a new Promise `return new Promise((resolve, reject) => {});`|
-| `thenc→` | adds then and catch declaration to a promise `.then((res) => {).catch((err) => {});`|
+| `thenc→` | adds then and catch declaration to a promise `.then((res) => {}).catch((err) => {});`|
 
 ### Console methods
 | Trigger  | Content |
