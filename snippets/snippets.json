@@ -29,6 +29,11 @@
     "body": "require('${1:package}');",
     "description": "Require a package"
   },
+  "requireToConst": {
+    "prefix": "req",
+    "body": "const ${1:packageName} = require('${1:package}');$0",
+    "description": "Require a package to const"
+  },
   "moduleExports": {
     "prefix": "mde",
     "body": "module.exports = {\n\t$0\n};\n",
