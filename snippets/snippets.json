@@ -169,7 +169,7 @@
   },
   "consoleGroup": {
     "prefix": "cgr",
-    "body": "console.group(\"${1:label}\");",
+    "body": "console.group('${1:label}');",
     "description": "Groups and indents all following output by an additional level, until console.groupEnd() is called."
   },
   "consoleGroupEnd": {
