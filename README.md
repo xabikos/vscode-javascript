@@ -79,6 +79,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `cas→`   | console alert method `console.assert(expression, object)`|
 | `ccl→`   | console clear `console.clear()` |
 | `cco→`   | console count `console.count(label)` |
+| `cdb→`   | console debug `console.debug(object)` |
 | `cdi→`   | console dir `console.dir` |
 | `cer→`   | console error `console.error(object)` |
 | `cgr→`   | console group `console.group(label)` |

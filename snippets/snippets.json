@@ -152,6 +152,11 @@
     "body": "console.count(${1:label});",
     "description": "Writes the the number of times that count() has been invoked at the same line and with the same label"
   },
+    "consoleDebug": {
+    "prefix": "cdb",
+    "body": "console.debug(${1:object});",
+    "description": "Displays a message in the console. Also display a blue right arrow icon along with the logged message in Safari"
+  },
   "consoleDir": {
     "prefix": "cdi",
     "body": "console.dir(${1:object});",
