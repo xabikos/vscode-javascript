@@ -85,7 +85,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `cgr→`   | console group `console.group(label)` |
 | `cge→`   | console groupEnd `console.groupEnd()` |
 | `clg→`   | console log `console.log(object)` |
-| `clo→`   | console log object with name `console.log('object :', object);` |
+| `clo→`   | console log object with name `console.log('object :>> ', object);` |
 | `ctr→`   | console trace `console.trace(object)` |
 | `cwa→`   | console warn `console.warn` |
 | `cin→`   | console info `console.info` |
