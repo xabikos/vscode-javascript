@@ -45,6 +45,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `rqr→`   | require package `require('');`|
 | `req→`   | require package to const `const packageName = require('packageName');`|
 | `mde→`   | default module.exports `module.exports = {};`|
+| `env→`   | exports name variable `export const nameVariable = localVariable;` |
 | `enf→`   | exports name function `export const log = (parameter) => { console.log(parameter);};` |
 | `edf→`   | exports default function `export default  (parameter) => { console.log(parameter);};` |
 | `ecl→`   | exports default class `export default class Calculator { };` |
