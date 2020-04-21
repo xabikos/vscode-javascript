@@ -51,7 +51,7 @@
   },
   "exportDefaultFunction": {
     "prefix": "edf",
-    "body": "export default (${1:params}) => {\n\t$0\n};\n",
+    "body": "export default function ${1:${TM_FILENAME_BASE}}(${2:params}) {\n\t$0\n};\n",
     "description": "Export default function in ES6 syntax"
   },
   "exportClass": {
