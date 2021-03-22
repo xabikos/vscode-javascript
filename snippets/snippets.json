@@ -111,6 +111,11 @@
     "body": "const ${1:name} = (${2:params}) => {\n\t${3}\n}",
     "description": "Creates a named function in ES6 syntax"
   },
+  "asyncNamedFunction": {
+    "prefix": "asnfn",
+    "body": "const ${1:name} = async (${2:params}) => {\n\t${3}\n}",
+    "description": "Creates an async named function in ES6 syntax"
+  },
   "destructingObject": {
     "prefix": "dob",
     "body": "const {${2:propertyName}} = ${1:objectToDestruct};",
