@@ -64,6 +64,11 @@
     "body": "export default class ${1:className} extends ${2:baseclassName} {\n\t$0\n};\n",
     "description": "Export default class which extends a base one in ES6 syntax"
   },
+  "exportDestructing": {
+    "prefix": "exd",
+    "body": "export { $2 } from '${1:module}';$0",
+    "description": "Exports only a portion of the module in ES6 syntax"
+  },
 
   "constructor": {
     "prefix": "con",
