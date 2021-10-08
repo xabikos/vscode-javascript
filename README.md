@@ -45,6 +45,8 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `rqr→`   | require package `require('');`|
 | `req→`   | require package to const `const packageName = require('packageName');`|
 | `mde→`   | default module.exports `module.exports = {};`|
+| `exd→`   | exports only a portion of the module using destructing  `export {rename} from 'fs';` |
+| `env→`   | exports name variable `export const nameVariable = localVariable;` |
 | `env→`   | exports name variable `export const nameVariable = localVariable;` |
 | `enf→`   | exports name function `export const log = (parameter) => { console.log(parameter);};` |
 | `edf→`   | exports default function `export default function fileName (parameter){ console.log(parameter);};` |
