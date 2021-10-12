@@ -44,6 +44,8 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `ima→`   | imports only a portion of the module as alias `import { rename  as localRename } from 'fs';` |
 | `rqr→`   | require package `require('');`|
 | `req→`   | require package to const `const packageName = require('packageName');`|
+| `emd→`   | exports only a portion of the module using destructing  `export {rename} from 'fs';` |
+| `eme→`   | exports everything as alias from the module `export * as localAlias from 'fs';`
 | `mde→`   | default module.exports `module.exports = {};`|
 | `env→`   | exports name variable `export const nameVariable = localVariable;` |
 | `enf→`   | exports name function `export const log = (parameter) => { console.log(parameter);};` |

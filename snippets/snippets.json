@@ -74,7 +74,7 @@
     "body": "export default class ${1:className} extends ${2:baseclassName} {\n\t$0\n};\n",
     "description": "Export default class which extends a base one in ES6 syntax"
   },
-  
+
   "constructor": {
     "prefix": "con",
     "body": "constructor(${1:params}) {\n\t${0}\n}",
@@ -95,6 +95,7 @@
     "body": "set ${1:propertyName}(${2:value}) {\n\t${0};\n}",
     "description": "Creates a setter property inside a class in ES6 syntax"
   },
+
   "forEach": {
     "prefix": "fre",
     "body": "${1:array}.forEach(${2:currentItem} => {\n\t${0}\n});",
@@ -150,7 +151,7 @@
     "body": ".then((${1:result}) => {\n\t${2}\n}).catch((${3:err}) => {\n\t${4}\n});",
     "description": "Add the .then and .catch methods to handle promises"
   },
-  
+
   "consoleAssert": {
     "prefix": "cas",
     "body": "console.assert(${1:expression}, ${2:object});",
