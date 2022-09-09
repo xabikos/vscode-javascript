@@ -73,6 +73,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `sto→`   | set timeout helper method `setTimeout(() => {});` |
 | `prom→`  | creates a new Promise `return new Promise((resolve, reject) => {});`|
 | `thenc→` | adds then and catch declaration to a promise `.then((res) => {}).catch((err) => {});`|
+| `var→`   | creates a new variable `var variable = value;` |
 
 ### Console methods
 | Trigger  | Content |
