@@ -221,5 +221,10 @@
     "prefix": "cte",
     "body": "console.timeEnd(${1:object});",
     "description": "Sets end point for execution time measurement"
-  }
+  },
+  "DeclareVariable":{
+		"prefix": "var",
+		"body": "var ${1:variable} = ${2:value};",
+			"description": "Declare a variable."
+	}
 }
