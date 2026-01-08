@@ -39,6 +39,11 @@
     "body": "module.exports = {\n\t$0\n};\n",
     "description": "Module exports from Common JS, node syntax at ES6"
   },
+  "moduleExport": {
+    "prefix": "mds",
+    "body": "module.exports = ${1:moduleName};$0",
+    "description": "Single module exports from Common JS, node syntax at ES6"
+  },
   "exportNamedVariable": {
     "prefix": "env",
     "body": "export const ${1:exportVariable} = ${2:localVariable};\n",
