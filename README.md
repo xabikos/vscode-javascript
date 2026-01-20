@@ -67,6 +67,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `fin→`   | for ... in loop `for(const item in object) {}` |
 | `anfn→`  | creates an anonymous function `(params) => {}` |
 | `nfn→`   | creates a named function `const add = (params) => {}` |
+| `asnfn→`   | creates an async named function `const add = async (params) => {}` |
 | `dob→`   | destructing object syntax `const {rename} = fs` |
 | `dar→`   | destructing array syntax `const [first, second] = [1,2]` |
 | `sti→`   | set interval helper method `setInterval(() => {});` |
